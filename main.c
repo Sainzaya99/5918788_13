@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include "LinkedList.h"
+#include "Linkedlist.h"
 
 int main() {
 	LinkedList* li = createLinkedList();
