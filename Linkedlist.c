@@ -67,7 +67,7 @@ LinkedList* insertAtLinkedList(LinkedList* li, int at, int item) {
 	return li;
 }
 LinkedList* deleteAtLinkedList(LinkedList* li, int at) {
-	if (at < 0 || at > li->size) {
+	if (at < 0 || at >= li->size) {
 		printf("Invalid index.\n");
 		return li;
 	}
